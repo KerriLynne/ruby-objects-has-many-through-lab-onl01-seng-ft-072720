@@ -13,7 +13,7 @@ class Doctor
   end
 
   def new_appointment(date, patient)
-    Appointment.new(patient, date, self) # this order matters!!!
+    Appointment.new(date, patient, self) # this order matters!!!
   end
 
   def appointments
